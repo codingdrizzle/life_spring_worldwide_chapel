@@ -1,0 +1,119 @@
+.card-indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-indicators [data-bs-target] {
+  background-color: rgb(100, 100, 100);
+  position: relative;
+  top: 20px;
+}
+
+.carousel-tag {
+  background-color: rgba(49, 0, 108, 255);
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 2px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-carousel {
+  /* height: 40vh; */
+  text-align: center;
+}
+.card-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.more {
+  color: rgba(46, 3, 104, 255);
+  border: 2px solid rgba(46, 3, 104, 255);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  margin: auto;
+  padding: 0px 15px;
+}
+.more:link,
+.more:hover,
+.more:active .more:visited {
+  color: rgba(46, 3, 104, 255);
+}
+.round {
+  border-radius: 0.8rem;
+}
+
+.cap {
+  padding: 0px;
+  margin: 0px;
+  color: rgba(46, 3, 104, 255);
+}
+hr {
+  color: rgba(46, 3, 104, 255);
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+}
+.circle-fab {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px gray;
+  bottom: 50px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.fa-star {
+  color: rgba(221, 168, 247, 255);
+}
+.time {
+  color: rgba(46, 3, 104, 255);
+}
+
+.footer {
+  min-height: 100px;
+  background: rgba(224, 175, 254, 255);
+}
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.footer-links a {
+  text-decoration: none;
+  color: rgba(46, 3, 104, 255);
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+.footer-connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-cap {
+  padding: 0px 10px;
+  margin: 15px 0px;
+  color: rgba(46, 3, 104, 255);
+  border-left: 5px solid rgba(46, 3, 104, 255);
+}
+.footer-connect a{
+    margin: 0px 20px;
+}
+.connect-icons{
+    font-size: 30px;
+}
