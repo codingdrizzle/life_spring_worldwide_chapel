@@ -1,0 +1,19 @@
+.card-carousel {
+  text-align: center;
+}
+.cap {
+  padding: 0px;
+  margin: 0px;
+  color: rgba(46, 3, 104, 255);
+}
+hr {
+  color: rgba(46, 3, 104, 255);
+  padding: 0px;
+  margin: 0px;
+  width: 50px;  
+  border: 2px solid  rgba(46, 3, 104, 255);
+}
+p strong.verse::first-letter{
+    font-size: 20px;
+    color: red;
+}

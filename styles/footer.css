@@ -1,0 +1,64 @@
+/* Footer Styles */
+.footer {
+  min-height: 100px;
+  background: rgba(224, 175, 254, 255);
+  border-top: 1px solid rgba(46, 3, 104, 255);
+}
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.footer-links a {
+  text-decoration: none;
+  color: rgba(46, 3, 104, 255);
+  font-size: 20px;
+}
+.footer-connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-cap {
+  padding:15px;
+  margin: 15px 0px;
+  color: rgba(46, 3, 104, 255);
+  border-left: 5px solid rgba(46, 3, 104, 255);
+  background-color: rgba(135, 131, 131,0.1);
+}
+.footer-connect a{
+    margin: 0px 20px;
+}
+.connect-links{
+  text-decoration: none;
+  color: rgb(166, 166, 166);
+}
+.connect-icons{
+    font-size: 2rem;
+    font-style:normal;
+}
+.fa-facebook{
+  color: #2761d4;
+}
+.fa-twitter{
+  color: 	#1DA1F2;
+}
+.fa-whatsapp{
+  color: #25D366;
+}
+hr.divide{
+  color: rgb(45, 45, 45);
+  width: 60%;
+  margin: 15px auto;
+}
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Footer Styles */
