@@ -1,0 +1,30 @@
+p#opening::first-letter{
+    font-size: 30px;
+}
+.cap {
+  padding: 0px;
+  margin: 0px;
+  color: rgba(46, 3, 104, 255);
+}
+hr.cap-under {
+  color: rgba(46, 3, 104, 255);
+  padding: 0px;
+  margin: 0px;
+  width: 50px;  
+  border: 1px solid  rgba(46, 3, 104, 255);
+}
+.about-paragraph{
+        font-size: 1.15rem;
+    margin: 15px 0 0 0;
+}
+.AnO-items{
+       font-size: 1.15rem;
+    margin: 15px 0 0 0;
+}
+ol.doctrine > li::marker{
+    font-weight: bolder;
+}
+li.doctrine-item{
+    font-size: 1.15rem;
+    margin: 15px 0 0 0;
+}
