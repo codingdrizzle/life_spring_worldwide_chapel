@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 .footer-links a {
   text-decoration: none;
@@ -36,7 +37,11 @@
 }
 .connect-links{
   text-decoration: none;
-  color: rgb(166, 166, 166);
+  color: rgb(0, 0, 0);
+}
+.connect-links:link,.connect-links:hover,.connect-links:active,.connect-links:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 .connect-icons{
     font-size: 2rem;

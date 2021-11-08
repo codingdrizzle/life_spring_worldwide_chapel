@@ -24,6 +24,7 @@
 }
 .fa-star{
   font-size: 30px;
+    color: rgba(221, 168, 247, 255);
 }
 .round {
   border-radius: 0.8rem;
@@ -53,9 +54,6 @@ hr {
   justify-content: center;
   align-items: center;
   background: white;
-}
-.fa-star {
-  color: rgba(221, 168, 247, 255);
 }
 .time {
   color: rgba(46, 3, 104, 255);

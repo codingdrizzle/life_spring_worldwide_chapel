@@ -1,0 +1,62 @@
+hr.cap-under {
+  color: rgba(46, 3, 104, 255);
+  padding: 0px;
+  margin: 0px;
+  width: 50px;  
+  border: 2px solid  rgba(46, 3, 104, 255);
+}
+.message-box {
+  margin: 0;
+}
+.submit-btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.submit-btn {
+  background-color: rgba(46, 3, 104, 255);
+  width: 50%;
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.detail-star-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.star-icon {
+  color: rgba(221, 168, 247, 255);
+  font-size: 30px;
+}
+p.email-add,
+p.phone-add,
+.location-add-1,
+.location-add-2{
+  font-size: 1.15rem;
+  white-space: nowrap;
+}
+.detail-social-networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.detail-social-networks a {
+  margin: 0 10px;
+}
+.detail-social-networks a i{
+  /* font-size: 1.15rem; */
+  white-space: nowrap;
+}
+.social-links {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.social-links:link,
+.social-links:active,
+.social-links:visited,
+.social-links:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
