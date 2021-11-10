@@ -32,4 +32,8 @@ a.nav-item{
   font-size: 20px;
   text-align: center;
 }
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
   /* Global Styles */

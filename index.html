@@ -23,9 +23,13 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css"
       integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- BOOTSTRAP CSS FILE -->
     <link
       rel="stylesheet"
@@ -38,10 +42,31 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light skicky-top px-5 shadow">
-        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" width="50px"> <!-- Logo --></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-          aria-expanded="false" aria-label="Toggle navigation">
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          bg-light
+          skicky-top
+          px-5
+          shadow
+        "
+      >
+        <a
+          class="navbar-brand"
+          href="./index.html"
+          style="color: rgba(46, 3, 104, 255)"
+          ><img src="./images/logo.png" alt="" width="50px" />LIFE SPRING
+          WORLDWIDE CHAPEL<!-- Logo --></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -64,7 +89,7 @@
       <!-- Carousel Section -->
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -82,20 +107,89 @@
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/church1.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="./images/church/church1.png"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption my-3">
               <h1>LIFE SPRING WORLDWIDE CHAPEL, GHANA</h1>
-                <a href="./about.html" class="carousel-tag">About Us &nbsp; >> </a>
+              <a href="./about.html" class="carousel-tag"
+                >About Us &nbsp; >>
+              </a>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/church2.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="./images/church/church2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption my-3">
+              <h1>LIFE SPRING WORLDWIDE CHAPEL, GHANA</h1>
+              <a href="./about.html" class="carousel-tag"
+                >About Us &nbsp; >>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/church/church3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption my-3">
+              <h1>LIFE SPRING WORLDWIDE CHAPEL, GHANA</h1>
+              <a href="./about.html" class="carousel-tag"
+                >About Us &nbsp; >>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/church/church4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption">
               <h1>LIFE SPRING WORLDWIDE CHAPEL, GHANA</h1>
-                <a href="./about.html" class="carousel-tag">About Us &nbsp; >> </a>
+              <a href="./about.html" class="carousel-tag"
+                >About Us &nbsp; >>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/church/church5.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption my-3">
+              <h1>LIFE SPRING WORLDWIDE CHAPEL, GHANA</h1>
+              <a href="./about.html" class="carousel-tag"
+                >About Us &nbsp; >>
+              </a>
             </div>
           </div>
         </div>
@@ -181,54 +275,62 @@
             <h2 class="cap text—left">EVENTS</h2>
             <hr />
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-5">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-5">
                 <div class="card shadow round me">
                   <div class="card-body">
                     <div class="card-title circle-fab">
                       <i class="fa fa-star text-center"></i>
                     </div>
                     <div>
-                      <h3 class="card-text text-center m-0">SUNDAYS SERVICE</h3>
-                      <p class="time text-center">9:30am to 11:30am</p>
+                      <h3 class="card-text text-center m-0 no-wrap">
+                        SUNDAYS<br />SERVICE
+                      </h3>
+                      <p class="time text-center">09:30am to 11:30am</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-5">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-5">
                 <div class="card shadow round me">
                   <div class="card-body">
                     <div class="card-title circle-fab">
                       <i class="fa fa-star text-center"></i>
                     </div>
                     <div>
-                      <h3 class="card-text text-center m-0">SUNDAYS SERVICE</h3>
-                      <p class="time text-center">9:30am to 11:30am</p>
+                      <h3 class="card-text text-center m-0 no-wrap">
+                        TUESDAY<br />COUNSELING
+                      </h3>
+                      <p class="time text-center">09:00am to 10:00am</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-5">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-5">
                 <div class="card shadow round me">
                   <div class="card-body">
                     <div class="card-title circle-fab">
                       <i class="fa fa-star text-center"></i>
                     </div>
                     <div>
-                      <h3 class="card-text text-center m-0">SUNDAYS SERVICE</h3>
-                      <p class="time text-center">9:30am to 11:30am</p>
+                      <h3 class="card-text text-center m-0 no-wrap">
+                        WEDNESDAY<br />PRAYERS
+                      </h3>
+                      <p class="time text-center">06:30pm to 07:30pm</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-5">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-5">
                 <div class="card shadow round me">
                   <div class="card-body">
                     <div class="card-title circle-fab">
                       <i class="fa fa-star text-center"></i>
                     </div>
                     <div>
-                      <h3 class="card-text text-center m-0">SUNDAYS SERVICE</h3>
-                      <p class="time text-center">9:30am to 11:30am</p>
+                      <h3 class="card-text text-center m-0 no-wrap">
+                        FRIDAY<br />PRAYERS
+                      </h3>
+                      <p class="time text-center">06:30pm to 07:30pm</p>
                     </div>
                   </div>
                 </div>
@@ -247,7 +349,11 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="card shadow">
-                  <img src="./images/church3.jpg" alt="" class="card-img-top" />
+                  <img
+                    src="./images/children/children2.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
                   <div class="card-body">
                     <h4 class="card-title text-center">
                       CHILDREN'S DEPARTMENT
@@ -263,7 +369,11 @@
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="card shadow">
-                  <img src="./images/church3.jpg" alt="" class="card-img-top" />
+                  <img
+                    src="./images/men/men1.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
                   <div class="card-body">
                     <h4 class="card-title text-center">
                       MEN's<br />
@@ -281,7 +391,11 @@
 
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="card shadow">
-                  <img src="./images/church3.jpg" alt="" class="card-img-top" />
+                  <img
+                    src="./images/women/women2.jpeg"
+                    alt=""
+                    class="card-img-top"
+                  />
                   <div class="card-body">
                     <h4 class="card-title text-center">WOMEN'S DEPARTMENT</h4>
 
@@ -296,7 +410,11 @@
 
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="card shadow">
-                  <img src="./images/church3.jpg" alt="" class="card-img-top" />
+                  <img
+                    src="./images/missions/mission2.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
                   <div class="card-body">
                     <h4 class="card-title text-center">MISSION'S DEPARTMENT</h4>
 
@@ -317,7 +435,16 @@
       <footer class="footer p-4">
         <div class="row">
           <div class="col-xs-12 col-md-4 footer-items">
-            <div class="footer-logo"></div>
+            <div class="footer-logo">
+              <a
+                class="navbar-brand"
+                href="./index.html"
+                style="color: rgba(46, 3, 104, 255)"
+                ><img src="./images/logo.png" alt="" width="150px" />
+                <!-- Logo --></a
+                >
+                <h4 class="text-center">LIFE SPRING WORLDWIDE CHAPEL</h4>
+            </div>
           </div>
           <div class="col-xs-12 col-md-4 footer-items">
             <div class="footer-links">
@@ -329,22 +456,33 @@
             </div>
           </div>
           <div class="col-xs-12 col-md-4 footer-items">
-              <h3 class="footer-cap">Connect with us</h3>
+            <h3 class="footer-cap">Connect with us</h3>
             <div class="footer-connect">
-              <a href="#" class="connect-links"><i class="fa-brands fa-facebook connect-icons"></i></a>
-              <a href="#" class="connect-links"><i class="fa-brands fa-instagram connect-icons"></i></a>
-              <a href="#" class="connect-links"><i class="fa-brands fa-twitter connect-icons"></i></a>
-              <a href="#" class="connect-links"><i class="fa-brands fa-whatsapp connect-icons"></i></a>
+              <a href="#" class="connect-links"
+                ><i class="fa-brands fa-facebook connect-icons"></i
+              ></a>
+              <a href="#" class="connect-links"
+                ><i class="fa-brands fa-instagram connect-icons"></i
+              ></a>
+              <a href="#" class="connect-links"
+                ><i class="fa-brands fa-twitter connect-icons"></i
+              ></a>
+              <a href="#" class="connect-links"
+                ><i class="fa-brands fa-whatsapp connect-icons"></i
+              ></a>
             </div>
           </div>
         </div>
-        <hr class="divide">
+        <hr class="divide" />
         <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-12 m-0 p-0">
-                <div class="copyright text-center m-0 p-0">
-                    <p class=" text-center m-0 p-0 title"><span style="font-size: 20px;">&copy;</span>Copyright . <span id="year"></span>| All rights reserved</p>
-                </div>
+          <div class="col-xs-12 col-md-12 col-lg-12 m-0 p-0">
+            <div class="copyright text-center m-0 p-0">
+              <p class="text-center m-0 p-0 title">
+                <span style="font-size: 20px">&copy;</span>Copyright .
+                <span id="year"></span>| All rights reserved
+              </p>
             </div>
+          </div>
         </div>
       </footer>
     </section>

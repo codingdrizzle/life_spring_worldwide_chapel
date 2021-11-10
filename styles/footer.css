@@ -6,8 +6,14 @@
 }
 .footer-logo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-content: center;
 }
+.footer-logo > a{
+  display: flex;
+  align-self: center;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;

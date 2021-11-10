@@ -58,4 +58,7 @@ hr {
 .time {
   color: rgba(46, 3, 104, 255);
 }
+.no-wrap{
+  white-space:normal;
+}
 /* Hompage Styles*/
