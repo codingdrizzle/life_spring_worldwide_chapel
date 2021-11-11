@@ -41,6 +41,10 @@ hr {
   margin: 0px;
   width: 50px;
 }
+.lg-only{
+  display: none;
+  visibility: hidden;
+}
 .circle-fab {
   position: relative;
   width: 60px;
@@ -60,5 +64,11 @@ hr {
 }
 .no-wrap{
   white-space:normal;
+}
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+  .lg-only{
+    display: inline;
+    visibility: visible;
+  }
 }
 /* Hompage Styles*/

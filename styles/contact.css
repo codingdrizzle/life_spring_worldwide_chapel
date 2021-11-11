@@ -25,6 +25,17 @@ hr.cap-under {
   border-radius: 20px;
   font-size: 1rem;
 }
+.submit-btn:hover{
+  color: rgba(46, 3, 104, 255);
+  background-color: white;
+  border: 1px solid rgba(46, 3, 104, 255);
+  transition: 0.5s ease-in-out;
+}
+.submit-btn:not(:hover){
+  color: white;
+  background-color: rgba(46, 3, 104, 255);
+  transition: 0.5s ease-in-out;
+}
 .detail-star-box {
   display: flex;
   flex-direction: row;
@@ -38,7 +49,8 @@ hr.cap-under {
 p.email-add,
 p.phone-add,
 .location-add-1,
-.location-add-2{
+.location-add-2,
+.country-flag{
   font-size: 1.15rem;
   white-space: nowrap;
 }

@@ -33,6 +33,24 @@ a.nav-item {
   border-radius: 50px;
   font-size: 20px;
   text-align: center;
+  margin: 10px 0px;
+}
+.carousel-tag:hover{
+  color: rgba(49, 0, 108, 255);
+    background-color: white;
+  font-weight: bold;
+  padding: 2px 25px;
+    transition: 0.5s ease-in-out;
+}
+.carousel-tag:not(:hover){
+  color:white ;
+    background-color: rgba(49, 0, 108, 255);
+    transition: 0.5s ease-in-out;
+}
+.slash-link, .slash-link:hover,.slash-link:visited,.slash-link:active{
+  color: rgba(49, 0, 108, 255);
+  text-decoration: none;
+  font-weight: bold;
 }
 .navbar-brand {
   font-weight: bold;
