@@ -7,6 +7,10 @@
   flex-direction: row;
   justify-content: center;
 }
+.FD-text{
+  text-align: center;
+  color:rgba(46, 3, 104, 255);
+}
 .more {
   color: rgba(46, 3, 104, 255);
   border: 2px solid rgba(46, 3, 104, 255);

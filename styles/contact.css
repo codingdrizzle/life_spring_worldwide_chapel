@@ -46,16 +46,18 @@ hr.cap-under {
   color: rgba(221, 168, 247, 255);
   font-size: 30px;
 }
-p.email-add,
+.email-add,.mailto{
+  font-size: 1rem;
+  white-space: nowrap;
+}
 p.phone-add,
 .location-add-1,
 .location-add-2,
-.country-flag, .mailto{
+.country-flag{
   font-size: 1.15rem;
   white-space: nowrap;
 }
 .mailto{
-  /* color: black; */
   text-decoration: none;
 }
 .detail-social-networks {
