@@ -1,5 +1,5 @@
 let messageForm = document.querySelector('#messageform');
 
 messageForm.addEventListener('submit',()=>{
-    alert('oh okay')
+    alert('Life Spring worldwide Chapel (says): Thank you for sending us a message!')
 })
